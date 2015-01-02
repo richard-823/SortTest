@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
-
+/*
+ * flag for observing the stability
+ */ 
 class DataWrap implements Comparable<DataWrap>
 {
 	int data;
@@ -26,7 +28,7 @@ class DataWrap implements Comparable<DataWrap>
 
 /*
  * long distance swapping causes sorting unstable, 
- * while neighbor swapping makes sorting stable
+ * while neighboured swapping makes sorting stable.
  */
 
 public class SortTest {
@@ -515,5 +517,4 @@ public class SortTest {
 		System.out.println("After Sorting: ");
 		System.out.println(java.util.Arrays.toString(data2));
 	}
-
 }

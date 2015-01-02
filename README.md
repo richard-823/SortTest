@@ -1,4 +1,12 @@
 SortTest
 ========
 
-sorting algorithms
+sorting algorithms:
+  - select
+  - heap
+  - bubble
+  - quick  
+  - insert/shell
+  - merge
+  - bucket
+  - ...
